@@ -1,0 +1,70 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JEditorPane;  
+
+public class Consulta extends JFrame {
+	public static void main(String[] args) {
+		JFrame casa = new JFrame("A Casa");
+		casa.setSize(400,500);
+		JButton jbQuarto1;
+		jbQuarto1=new JButton("Quarto 1");
+		jbQuarto1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				
+			}
+		});
+		casa.add(jbQuarto1);
+		casa.setVisible(true);
+		
+		JButton jbQuarto2;
+		jbQuarto2=new JButton("Quarto 2");
+		jbQuarto2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+			}
+		});
+		casa.add(jbQuarto2);
+		casa.setVisible(true);
+		
+		JButton jbBanheiro1;
+		jbBanheiro1=new JButton("Banheiro 1");
+		jbBanheiro1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+			}
+		});
+		casa.add(jbBanheiro1);
+		casa.setVisible(true);
+		
+		JButton jbBanheiro2;
+		jbBanheiro2=new JButton("Banheiro 2");
+		jbBanheiro2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+			}
+		});
+		casa.add(jbBanheiro2);
+		casa.setVisible(true);
+		
+		JButton jbMostrar;
+		jbMostrar=new JButton("Mostrar");
+		jbMostrar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+			}
+		});
+		casa.add(jbMostrar);
+		jbQuarto1.setBounds(30,50,150,40);
+		jbQuarto2.setBounds(30,100,130,25);
+		jbBanheiro1.setBounds(210,135,150,40);
+		jbBanheiro2.setBounds(210,200,150,40);
+		jbMostrar.setBounds(70,150,250,25);
+		casa.setLocationRelativeTo(null);
+		casa.setLayout(null);
+		casa.setVisible(true);
+		
+	}
+}
